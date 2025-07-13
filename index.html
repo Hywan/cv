@@ -36,8 +36,9 @@
     Nancy, France:</p>
     <ul>
       <li class="anchored"><time datetime="2014/">2014</time>
-      Computer Science PhD thesis, theme: <cite>Automatic Generation of Unit
-      Test with Praspel, a Specification Language for PHP</cite>.</li>
+      Computer Science PhD thesis, theme:
+      <a href="https://hal.science/tel-01093355v2"><cite>Automatic Generation
+      of Unit Test with Praspel, a Specification Language for PHP</cite></a>.</li>
     </ul>
 
     <p>University of Sciences and Techniques at Besançon, France:</p>
@@ -77,41 +78,31 @@
       <li class="anchored"><time datetime="2018-02">Feb. 2018</time>
       <cite>Contract-based testing for PHP with Praspel</cite>,<br />
       published in the
-      <a href="https://www.sciencedirect.com/science/article/abs/pii/S016412121730119X?via%3Dihub">Journal of Systems and Software</a>, pages 209-222,</li>
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S016412121730119X">Journal of Systems and Software</a>, pages 209-222,</li>
       <li class="anchored"><time datetime="2014-07">Jul. 2014</time>
-      My PhD thesis, <cite>Automatic generation of unit tests with Praspel, a specification language for PHP</cite>,<br />
-      <a href="https://hal.inria.fr/tel-01093355v2/document">thesis</a> (in French),</li>
+      My PhD thesis, <cite>Automatic generation of unit tests with Praspel, a specification language for PHP</cite><span class="less_important">,<br />
+      <a href="https://hal.inria.fr/tel-01093355v2/document">thesis</a> (in French)</span>,</li>
       <li class="anchored"><time datetime="2013-03">Mar. 2013</time>
       <cite>A Constraint Solver for PHP Arrays</cite>,<br />
       presented at
       <a href="http://cstva2013.univ-fcomte.fr/">Constraints in Software
       Testing Verification and Analysis</a>
       (CSTVA, Luxembourg, Luxembourg)<span class="less_important">,<br />
-      <a href="http://hoa-project.net/Literature/Research/Cstva13.pdf">article</a>,
-      <a href="http://keynote.hoa-project.net/Cstva13/EGB13.pdf">presentation</a>
-      and
-      <a href="http://hoa-project.net/Event/Cstva13.html">details</a></span>,</li>
+      <a href="https://hal.science/hal-00935308/document">article</a></span>,</li>
       <li class="anchored"><time datetime="2012-04">Apr. 2012</time>
       <cite>Grammar-Based Testing using Realistic Domains in PHP</cite>,<br />
       presented at
       <a href="https://sites.google.com/site/amost2012/">Advances in Model
       Based Testing</a>
-      (A-MOST, Montréal, Canada)<span class="less_important">,
-      <br />
-      <a href="http://hoa-project.net/Literature/Research/Amost12.pdf">article</a>,
-      <a href="http://keynote.hoa-project.net/Amost12/EDGB12.pdf">presentation</a>
-      and
-      <a href="http://hoa-project.net/Event/Amost12.html">details</a></span>,</li>
+      (A-MOST, Montréal, Canada)<span class="less_important">,<br />
+      <a href="https://hal.science/hal-00931662v1/document">article</a></span>,</li>
       <li class="anchored"><time datetime="2011-11">Nov. 2011</time>
       <cite>Praspel: A Specification Language for Contract-Driven Testing in PHP</cite>,<br />
       presented at
       <a href="http://ictss2011.lri.fr/">International Conference on
       Testing Software and Systems</a>
-      (ICTSS, Paris, France)<span class="less_important">,
-      <br />
-      <a href="http://hoa-project.net/Literature/Research/Ictss11.pdf">article</a>
-      and
-      <a href="http://keynote.hoa-project.net/Ictss11/EDGB11.pdf">presentation</a></span>.</li>
+      (ICTSS, Paris, France)<span class="less_important">,<br />
+      <a href="https://link.springer.com/chapter/10.1007/978-3-642-24580-0_6">article</a></span>.</li>
     </ul>
   </section>
 </div>
@@ -119,9 +110,72 @@
 <h1>Important works</h1>
 
 <div class="hline timeline">
+  <section class="group element">
+    <h2><time datetime="2022-05-03">since 2022</time>
+        Senior Engineer at <a href="https://element.io/">Element</a></h2>
+
+    <p><em>Be in your element. A sovereign and secure communications
+    platform. Built by the creators of Matrix.</em></p>
+
+    <p>I'm currently part of the <a href="https://github.com/matrix-org/matrix-rust-sdk">Matrix Rust SDK</a>
+    team. My goal is to develop, improve and maintain this Matrix SDK, written
+    in Rust, that is the foundation of many important projects in the Matrix
+    community. It is notably used by Element X, the next-gen Matrix client.</p>
+
+    <p>The Matrix Rust SDK:</p>
+    <ul>
+      <li>Work on improving, developing and maintaining the most popular open-source Matrix SDK to create Matrix client,</li>
+      <li>It is the foundation for Matrix clients like
+      <a href="https://element.io/app">Element X</a> or
+      <a href="https://flathub.org/apps/org.gnome.Fractal">Fractal</a>.
+      It also provides many bindings to Swift, Kotlin, Go and so on,</li>
+      <li>Have participated in the design and development of <a
+      href="https://mnt.io/articles/sliding-sync-at-the-matrix-conference/">Sliding
+      Sync, a novel, fast and light sync mechanism for Matrix</a>.</li>
+      <li>
+        <a href="https://github.com/matrix-org/matrix-rust-sdk" class="github-card raw">
+          <p><code>matrix-rust-sdk</code></p>
+          <ul>
+            <li><img src="https://img.shields.io/github/stars/matrix-org/matrix-rust-sdk" alt="Number of stars on Github" /></li>
+            <li><img src="https://img.shields.io/crates/d/matrix-sdk?color=blue" alt="Number of downloads" /></li>
+          </ul>
+        </a>
+      </li>
+    </ul>
+
+    <p>Bindings for the Matrix Rust SDK:</p>
+    <ul>
+      <li>Bindings to Swift and Kotlin exist via <a href="https://github.com/mozilla/uniffi-rs">UniFFI</a>,</li>
+      <li>I've implemented the <a href="https://github.com/mozilla/uniffi-rs/pull/1409">support for
+      async/<code>Future</code> in UniFFI</a>, allowing Rust async code to be called
+      and driven by foreign languages, like Swift, Kotlin or Python. This work had an
+      important impact on the Matrix Rust SDK and clients like Element X.</li>
+      <li>Other bindings have been manually implemented, like:
+      <ul>
+        <li><a href="https://github.com/matrix-org/matrix-sdk-crypto-wasm"><code>matrix-sdk-crypto-wasm</code></a>,
+        which are bindings to <code>matrix-sdk-crypto</code> (from the Matrix
+        Rust SDK) for WebAssembly within a JavaScript host. It is used by
+        Element Web, Thunderbird, and other Matrix clients,</li>
+        <li><a href="https://github.com/matrix-org/matrix-rust-sdk-crypto-nodejs"><code>matrix-sdk-crypto-nodejs</code></a>,
+        which are bindings to <code>matrix-sdk-crypto</code> (from the Matrix
+        Rust SDK) for NodeJS.</li>
+      </ul></li>
+    </ul>
+
+    <p>Other contributions:</p>
+    <ul>
+      <li><a href="https://github.com/jplatte/eyeball"><code>eyeball</code></a>, a
+      library to make reactive programming in Rust,</li>
+      <li>(to be release soon), a library to run webAssembly with Component Model and WIT on all platforms</li>
+    </ul>
+
+    <p><a href="https://github.com/search?q=user%3Amatrix-org+author%3AHywan&amp;type=pullrequests">See all my open-source contributions</a>.
+    <a href="https://mnt.io/series/reactive-programming-in-rust/">See my series about reactive programming in Rust</a>.</p>
+  </section>
+
   <section class="group wasmer">
     <h2><time datetime="2019-04/2021-10">2019-2021</time>
-        Late Co-Founder &amp; Compiler Engineer at Wasmer</h2>
+        Late Co-Founder &amp; Compiler Engineer at <a href="https://wasmer.io/">Wasmer</a></h2>
 
     <p><em>The most popular open-source WebAssembly runtime
     <a href="https://github.com/wasmerio" class="transparent"><img src="https://img.shields.io/github/stars/wasmerio?style=social" alt="Wasmer on Github"/></a></em></p>
@@ -248,13 +302,13 @@
       <li>Experiment with a real-time OS to run WebAssembly modules on microcontrollers.</li>
     </ul>
     
-    <p><a href="https://github.com/search?q=user%3Awasmerio+author%3AHywan&amp;type=Issues">See all my open-source contributions</a>.
-    <a href="https://mnt.io/2021/10/04/i-leave-wasmer/">Learn more by reading my article about my departure of Wasmer</a>.</p>
+    <p><a href="https://github.com/search?q=user%3Awasmerio+author%3AHywan&amp;type=pullrequests">See all my open-source contributions</a>.
+    <a href="https://mnt.io/articles/i-leave-wasmer/">Learn more by reading my article about my departure of Wasmer</a>.</p>
   </section>
 
   <section class="group automattic">
     <h2><time datetime="2017-04/2019-03">2017-2019</time>
-        Code Wrangler at Automattic</h2>
+        Code Wrangler at <a href="https://automattic.com/">Automattic</a></h2>
 
     <p><em>We are passionate about making the web a better place</em></p>
 
@@ -275,10 +329,11 @@
       <li>Create <a href="https://github.com/Hywan/gutenberg-parser-rs">a
       parser for Gutenberg</a>, the new WordPress editor, in Rust and
       compile it to many targets (WebAssembly, NodeJS, PHP extension,
-      C).</li>
+      C). <a href="https://mnt.io/series/from-rust-to-beyond/">Learn
+      more by reading my blog series about it</a>.</li>
     </ul>
 
-    <p><a href="https://github.com/search?q=user%3AAutomattic+author%3AHywan&amp;type=Issues">See all my open-source contributions</a>.</p>
+    <p><a href="https://github.com/search?q=user%3AAutomattic+author%3AHywan&amp;type=pullrequests">See all my open-source contributions</a>.</p>
   </section>
 
   <section class="group liip">
@@ -315,12 +370,12 @@
       </li>
     </ul>
 
-    <p><a href="https://github.com/search?q=user%3Aliip+author%3AHywan&amp;type=Issues">See all my open-source contributions</a>.</p>
+    <p><a href="https://github.com/search?q=user%3Aliip+author%3AHywan&amp;type=pullrequests">See all my open-source contributions</a>.</p>
   </section>
 
   <section class="group fruux">
     <h2><time datetime="2014-11/2015-06">2014-2015</time>
-        Engineer at fruux</h2>
+        Engineer at <a href="https://fruux.com/">fruux</a></h2>
 
     <p><em>Sync contacts, calendars &amp; tasks, powers millions of users
     world-wide <a href="https://github.com/sabre-io" class="transparent"><img src="https://img.shields.io/github/stars/sabre-io?style=social" alt="Fruux/Sabre on Github"/></a></em></p>
@@ -341,12 +396,12 @@
       everything in English, regular meetings once a week…).</li>
     </ul>
 
-    <p><a href="https://github.com/search?q=user%3Asabre-io+author%3AHywan&amp;type=Issues">See all my open-source contributions</a>.</p>
+    <p><a href="https://github.com/search?q=user%3Asabre-io+author%3AHywan&amp;type=pullrequests">See all my open-source contributions</a>.</p>
   </section>
 
   <section class="group mozilla">
     <h2><time datetime="2009-03/2009-08">2009</time>
-    Intern at Mozilla Foundation</h2>
+    Intern at <a href="https://mozilla.org/">Mozilla Foundation</a></h2>
 
     <p><em>Building a better Internet, promote openness, innovation &amp;
     opportunity</em></p>
@@ -384,11 +439,11 @@
       <li>Several events (including community ones) in different
       countries,</li>
       <li>An actual bridge between the industrial and research worlds,</li>
-      <li>Reached 120 millions installations in September 2021</time>.</li>
+      <li>Reached 247 millions installations in July 2025</time>.</li>
     </ul>
     <p>The project has been archived in 2021.</p>
 
-    <p><a href="https://github.com/search?q=user%3Ahoaproject+author%3AHywan&amp;type=Issues">See all my open-source contributions</a>.</p>
+    <p><a href="https://github.com/search?q=user%3Ahoaproject+author%3AHywan&amp;type=pullrequests">See all my open-source contributions</a>.</p>
   </section>
 </div>
 
@@ -398,6 +453,12 @@
   <div class="hline timeline">
     <section class="group talks">
       <ul>
+        <li class="anchored"><time datetime="2024-09">Sept. 2024</time>
+        <cite>Simplified Sliding Sync</cite>,
+        presented at <a href="https://2024.matrix.org/">Matrix Conf</a> (Berlin, Germany),
+        <a href="https://mnt.io/articles/sliding-sync-at-the-matrix-conference/slides.pdf">presentation</a>,
+        <a href="https://www.youtube.com/watch?v=kI2lSCVEunw&embeds_referring_euri=https%3A%2F%2Fmnt.io%2F">record</a>
+        and <a href="https://mnt.io/articles/sliding-sync-at-the-matrix-conference/">details</a>,</li>
         <li class="anchored"><time datetime="2021-07">Jul. 2021</time>
         <cite>What the Wasm!</cite>,
         <a href="https://slash-podcast.fr/podcasts/wasm/">listen</a>,</li>
@@ -480,6 +541,9 @@
       <h2>Author or release manager of:</h2>
 
       <ul>
+        <li><a href="https://github.com/matrix-org/matrix-rust-sdk">Matrix Rust SDK</a>,
+        a collection of libraries that make it easier to
+        build <a href="https://matrix.org/">Matrix</a> clients in Rust,</li>
         <li><a href="https://github.com/wasmerio/wasmer">Wasmer</a>,
         the most popular and leading WebAssembly runtime written in
         Rust, and all its embeddings in
@@ -498,15 +562,15 @@
           <li><a href="https://github.com/wasmerio/interface-types"><code>interface-types</code></a>,
           an experimental implementation of the WebAssembly Interface
           Types proposal,</li>
-          <li><a href="https://github.com/wasmerio/sonde-rs"><code>sonde</code></a>,
-          a library to compile USDT probes into a Rust library,</li>
           <li><a href="https://github.com/wasmerio/loupe/"><code>loupe</code></a>,
           a set of tools to analyse and to profile Rust code,</li>
           <li>and many others</li>
         </ul></li>
+        <li><a href="https://github.com/Hywan/sonde-rs"><code>sonde</code></a>, a
+        library to compile USDT probes into a Rust library</a>,</li>
         <li><a href="http://hoa-project.net/">Hoa</a>, a modular,
-        extensible and structured set of PHP libraries (author, 120
-        millions installations, 6.8k Github stars),</li>
+        extensible and structured set of PHP libraries (author, 247 millions
+        installations, 6.8k Github stars),</li>
         <li><a href="http://atoum.org/">atoum</a>, a simple, modern
         and intuitive unit testing framework for PHP (release manager,
         1.2 millions installations, 1.4k Github stars),</li>
@@ -525,7 +589,8 @@
 
       <h2>Contributor of:</h2>
 
-      <p>… too many projects to list them all!</p>
+      <p>… <a href="https://github.com/search?q=author%3AHywan&type=pullrequests">too
+      many projects</a> to list them all!</p>
     </section>
   </div>
 </div>
@@ -556,7 +621,7 @@
            aria-valuemin="0"
            aria-value-max="3"><span></span></div>
       <ul>
-        <li><strong>favorite</strong> Rust,</li>
+        <li><strong>favourite</strong> Rust,</li>
         <li><strong>markup</strong> XML, HTML, RDF, DOM,</li>
         <li><strong>object</strong> PHP, Java,</li>
         <li><strong>functional</strong> C, Javascript, Scheme,</li>

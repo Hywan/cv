@@ -84,6 +84,7 @@ h1 {
 h2 {
     font-size: 1.5em;
     font-weight: normal;
+    line-height: 1.2em;
 }
 
 a {
@@ -220,6 +221,10 @@ section.group {
     section.language {
         color: #fff;
         background-image: url('../image/section/languages.jpg');
+    }
+
+    section.element {
+        background-color: #dcf6e6;
     }
 
     section.wasmer {
